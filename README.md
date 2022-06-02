@@ -1,8 +1,8 @@
 ### Hi there 👋
-- 🌱 I’m currently learning Databases, Git and Java/Kotlin (Spring)
-- 👯 I’m looking to collaborate on any interesting project
+- 🌱 
+- 👯 
 - 📫 How to reach me: Tohidfla@Gmail.com
-- 🔭 I’m currently working on some of my own ideas.
+- 🔭 
 
 <!--
 **TohidHeshmati/TohidHeshmati** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
