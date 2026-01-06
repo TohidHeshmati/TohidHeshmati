@@ -4,45 +4,54 @@ I’m a Systems-Focused Developer building a personal ecosystem of high-performa
 
 ---
 
-### 🛠️ Featured Ecosystem Projects
+### 🚀 Featured Projects
 
-#### 🛰️ [Pulse OS](https://github.com/TohidHeshmati/howdo) (The Command Center)
-A modular dashboard for macOS and Linux. It unifies hardware vitals, habits, and knowledge management into a single "Pulse" in the terminal.
-* **CLI Engine:** Built on Zsh and `fzf` for instant intelligence.
-* **Hardware Aware:** Tailored for Raspberry Pi and macOS performance monitoring.
+#### 🧠 [howdo](https://github.com/TohidHeshmati/howdo)
+**Context-Aware Command Runner for Zsh**
+An interactive "Second Brain" for the terminal that transforms flat cheat sheets into dynamic tools.
+* **Variable Injection:** Detects `<placeholders>` and prompts for values with history support.
+* **Safety First:** Auto-detects destructive commands and offers `--dry-run` protection.
+* **Fuzzy Search:** Powered by `fzf` and `bat` for rich, syntax-highlighted previews.
+* **Universal:** Optimized for both macOS (ggrep) and Linux (Raspberry Pi/Debian).
 
-#### 🔐 [Secret Stash](https://github.com/TohidHeshmati/secretstash) (The Vault)
-A secure, production-ready Note-Taking API built with **Kotlin** and **Spring Boot**.
-* **Security:** JWT-based authentication and rate-limiting to prevent brute-force attacks.
-* **Performance:** Redis-backed caching for instant retrieval of personal data.
-* **Resilience:** Standardized API responses and full Swagger documentation.
+#### 🔗 [urlShortener](https://github.com/TohidHeshmati/urlShortener)
+**High-Concurrency Backend Service**
+A scalable URL shortening service leveraging Redis for global ID generation.
+* **Tech Stack:** Kotlin, Spring Boot, MySQL, Redis.
+* **Optimization:** Base62 encoding for high-density, unique identifiers.
 
-#### 🔗 [urlShortener](https://github.com/TohidHeshmati/urlShortener) (The Linker)
-A high-concurrency URL shortening service leveraging Redis for global ID generation.
-* **Tech:** Kotlin, Spring Boot, MySQL, and Redis.
-* **Logic:** Base62 encoding for optimized, short identifiers.
+#### 🔐 [Secret Stash](https://github.com/TohidHeshmati/secretstash)
+**Secure Note-Taking API**
+A production-ready vault for personal data built with **Kotlin** and **Spring Boot**.
+* **Security:** JWT-based authentication and rate-limiting.
+* **Infrastructure:** PostgreSQL persistence with Redis-backed caching for instant retrieval.
+* **Documentation:** Fully interactive Swagger UI for API testing.
+
+#### 🛰️ Pulse OS (In Progress)
+**Unified System Dashboard**
+A modular "Command Center" designed to unify hardware vitals, habits, and productivity metrics across Mac and Raspberry Pi environments.
 
 ---
 
 ### 🧰 Tech Stack & Expertise
 
-* **Backend:** Kotlin (Spring Boot), Python (FastAPI), Redis, PostgreSQL, MySQL.
-* **CLI & Automation:** Zsh, Bash, FZF, Bat, Ripgrep.
-* **Infrastructure:** Docker, Docker Compose, Raspberry Pi OS, Gradle.
-* **Security:** JWT, Rate Limiting, Environment-driven configuration.
+* **Languages:** Kotlin, Zsh, Python, Bash.
+* **Backend:** Spring Boot, Redis, MySQL, PostgreSQL.
+* **DevOps:** Docker, Docker Compose, Gradle, Raspberry Pi OS.
+* **CLI Power Tools:** FZF, Bat, Ripgrep, Coreutils.
 
 ---
 
 ### 🔭 Current Focus
 - 🏗️ Integrating **Secret Stash** as the encrypted storage backend for **howdo** snippets.
-- ⚡ Developing **Pulse** to communicate with self-hosted Kotlin APIs on Raspberry Pi.
-- 🧪 Exploring advanced caching strategies for local-first systems.
+- ⚡ Building a centralized **Pulse API** to sync data between mobile and CLI.
+- 🧪 Fine-tuning local-first cloud architecture on my Raspberry Pi cluster.
 
 ---
 
-### 📫 Reach Me
+### 📫 Connect with me
 - 📧 Email: [Tohidfla@Gmail.com](mailto:Tohidfla@Gmail.com)
-- ⚡ **Fun Fact:** My terminal configuration is my most productive employee.
+- 🖥️ [GitHub Activity](https://github.com/TohidHeshmati)
 
 ---
 *“Building secure, modular systems—one terminal command at a time.”*
