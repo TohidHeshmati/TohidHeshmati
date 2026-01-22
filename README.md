@@ -36,10 +36,7 @@ A production-hardened API for handling sensitive data.
 - **Security:** JWT-based stateless authentication with strict rate-limiting.
 - **Stack:** PostgreSQL for ACID persistence backed by **Redis** for high-speed caching.
 - **Design:** Designed as the encrypted storage backend for the `howdo` ecosystem.
-#### 🛰️ Pulse OS `(In Progress)`
-> **Unified System Dashboard**
-A modular command center unifying hardware vitals and productivity metrics.
-- **Goal:** Cross-device sync between **macOS** workstations and **Raspberry Pi** clusters.
+
 - **Stack:** Local-first architecture focusing on low-latency data synchronization.
 #### 🚩 Feature Flag Keep `(In Progress)`
 > **High-Performance Toggle Service**
@@ -51,6 +48,11 @@ A lightweight, low-latency feature flag management system designed for distinct 
 A unified habit tracking application built for seamless experience across mobile and desktop.
 - **Stack:** **Kotlin Multiplatform (KMP)** & **Jetpack Compose** for shared UI/logic.
 - **Goal:** A beautiful, responsive app to track daily progress everywhere.
+
+#### 🛰️ Pulse OS `(In Progress)`
+> **Unified System Dashboard**
+A modular command center unifying hardware vitals and productivity metrics.
+- **Goal:** Cross-device sync between **macOS** workstations and **Raspberry Pi** clusters.
 ---
 ### 🧰 Tech Stack
 <div align="center">
@@ -73,12 +75,10 @@ A unified habit tracking application built for seamless experience across mobile
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </div>
 <br/>
-
-##### **Productivity & Tools:** `Zsh` `FZF` `Ripgrep` `Raspberry Pi OS` `Gradle` `Flyway`
 ---
 ### 🔭 Current Focus
-- **Device Analytics:** Refining the user-agent parsing engine in `tiny-url-service` for deeper device insights.
-- **Ecosystem Integration:** Wiring `secretstash` as the encrypted backend for `howdo`.
+- **Feature flag service:** A backend service for managing feature flags. providing sdk for other services to use.
+- **Ecosystem Integration:** Wiring `secretstash` as the encrypted backend for `tiny-url-service`.
 - **Pulse API:** Designing the central sync protocol for cross-device metrics (Mac <-> Pi).
 ---
 ### 📫 Connect
