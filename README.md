@@ -8,7 +8,7 @@
 I specialize in **high-performance backend services** and **developer productivity tools**, bridging the gap between terminal efficiency and modern cloud architecture.
 ### 🚀 Featured Projects
 #### 🔗 [tiny-url-service](https://github.com/TohidHeshmati/tiny-url-service)
-> **Production-Ready Distrubuted URL Shortener**
+> **Production-Ready Distributed URL Shortener**
 A high-concurrency URL shortening platform engineered for scale and security.
 - **Architecture:** Distributed range-based ID generation (DB segments) to eliminate single points of failure and minimize Redis network overhead.
 - **Security:** **LCG-shuffled ID generation** prevents sequential enumeration, protecting business intelligence.
@@ -33,7 +33,7 @@ A modular command center unifying hardware vitals and productivity metrics.
 - **Stack:** Local-first architecture focusing on low-latency data synchronization.
 ---
 ### 🧰 Tech Stack
-<div align="left">
+<div align="center">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -53,7 +53,7 @@ A modular command center unifying hardware vitals and productivity metrics.
 - **Pulse API:** Designing the central sync protocol for cross-device metrics (Mac <-> Pi).
 ---
 ### 📫 Connect
-<a href="mailto:Tohidfla@Gmail.com">
+<a href="mailto:tohidfla@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" />
 </a>
 <a href="https://github.com/TohidHeshmati">
