@@ -1,11 +1,18 @@
-# Hi there, I'm **Tohid** 👋
 <div align="center">
-  <b>Building secure, modular systems—one terminal command at a time.</b>
-  <br/>
-  <sub>CLI Toolsmith | Backend Engineer | Cloud-Native Architect</sub>
-</div>
----
+
+# Hi there, I'm **Tohid** 👋
+
+<b>Building secure, modular systems—one terminal command at a time.</b>
+<br/>
+<sub>CLI Toolsmith | Backend Engineer | Cloud-Native Architect</sub>
+<br/>
+<br/>
+
 I specialize in **high-performance backend services** and **developer productivity tools**, bridging the gap between terminal efficiency and modern cloud architecture.
+
+</div>
+
+---
 ### 🚀 Featured Projects
 #### 🔗 [tiny-url-service](https://github.com/TohidHeshmati/tiny-url-service)
 > **Production-Ready Distributed URL Shortener**
