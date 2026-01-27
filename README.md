@@ -38,18 +38,26 @@ A production-hardened API for handling sensitive data.
 - **Design:** Designed as the encrypted storage backend for the `howdo` ecosystem.
 
 - **Stack:** Local-first architecture focusing on low-latency data synchronization.
-#### 🚩 Feature Flag Keep `(In Progress)`
+#### 🚩 Feature Flag Keep `(In Progress)(currently worked on)`
 > **High-Performance Toggle Service**
 A lightweight, low-latency feature flag management system designed for distinct environments.
 - **Stack:** **Ktor** for high-throughput asynchronous processing.
 - **Goal:** Centralized configuration with minimal overhead.
-#### 🎯 Habit Tracker `(In Progress)`
+
+#### 🛡️ Project: Daloon (Rate Limiter) `(In Progress)(currently worked on)`
+> **Super High-Performance Rate limiter Service**
+A lightweight, low-latency super fast rate limiter that support different methods and gets strategy from above feature flag service.
+- **Stack:** **Ktor** for high-throughput.
+- **Goal:** distributed rate limitter that supports all common rate limit strategies and easy to plug, no redeployment needed..
+
+
+#### 🎯 Ritual. A Habit Tracker `(In Progress)(temporarly on pause)`
 > **Cross-Platform Consistency Tool**
 A unified habit tracking application built for seamless experience across mobile and desktop.
 - **Stack:** **Kotlin Multiplatform (KMP)** & **Jetpack Compose** for shared UI/logic.
 - **Goal:** A beautiful, responsive app to track daily progress everywhere.
 
-#### 🛰️ Pulse OS `(In Progress)`
+#### 🛰️ Pulse OS `(In Progress)(temporarly on pause)`
 > **Unified System Dashboard**
 A modular command center unifying hardware vitals and productivity metrics.
 - **Goal:** Cross-device sync between **macOS** workstations and **Raspberry Pi** clusters.
